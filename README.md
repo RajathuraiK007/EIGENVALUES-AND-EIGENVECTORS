@@ -22,13 +22,13 @@ End the program
 #RegisterNumber: 212225100036
 
 import numpy as np
-matrix=np.array([[4,2],[2,4]])
+matrix=np.array([[-2,2,-3],[2,1,-6],[-1,-2,0]])
 eigen_values,eigen_vectors = np.linalg.eig(matrix)
 print("Eigen values are {} and Eigen Vectors are {}".format(eigen_values,eigen_vectors))
 ```
 ## Output:
 
-<img width="1500" height="843" alt="image" src="https://github.com/user-attachments/assets/39d9cbdf-cb80-4a0a-91fa-02bb47a1eeec" />
+<img width="1324" height="828" alt="Screenshot 2026-03-26 102248" src="https://github.com/user-attachments/assets/3b8c373c-5b1d-4e9b-bbb3-3a1ae79b95b1" />
 
 
 ## Result:
